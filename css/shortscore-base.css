@@ -1,0 +1,83 @@
+.type-game .shortscore-hreview {
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.type-game .shortscore-hreview .rating {
+  float: right;
+  font-size: 300%;
+  color: #fff;
+  line-height: 1.2;
+  padding: 0;
+}
+
+.type-game .shortscore-hreview .rating a {
+  display: block !important;
+  border-bottom: none !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.type-game .shortscore-hreview .rating a:hover {
+  color: #fff;
+}
+
+.type-game .shortscore-hreview .link {
+  float: left;
+  padding: 1em;
+  padding-top: 0;
+}
+
+.type-game .shortscore-hreview .link a {
+  text-decoration: none;
+}
+
+.type-game .shortscore-hreview .text {
+  float: left;
+  padding: 1em;
+  margin-bottom: 1em;
+  color: #fff;
+  background-color: #337EB9;
+}
+
+.type-game .shortscore-hreview .text a {
+  color: #fff;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.type-game .shortscore-hreview .text .item .fn {
+  font-weight: 700;
+}
+
+.type-game .shortscore-hreview .summary {
+  font-size: 110%;
+}
+
+.type-game .shortscore-hreview .outof,
+.type-game .shortscore-hreview .dtreviewed,
+.type-game .shortscore-hreview .best {
+  display: none;
+}
+
+.type-game .shortscore-title {
+  color: #108D4F;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.type-game .shortscore-title a {
+  color: #108D4F;
+  text-decoration: none;
+  border: none;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 75em) {
+  .type-game .shortscore-title {
+    text-align: left;
+  }
+}

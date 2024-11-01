@@ -1,0 +1,82 @@
+/* SHORTSCORE */
+@media only screen and (-Webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-device-pixel-ratio: 2) {
+  html .type-game .shortscore {
+    background-image: url('../assets/shortscore-1200x1600.png?v=8.0');
+    background-image: url('../assets/shortscore.svg?v=8.0'), linear-gradient(transparent, transparent);
+  }
+}
+
+.type-game .shortscore {
+  background-repeat: no-repeat;
+  background-position: -400px -600px;
+  background-size: 600px;
+  background-image: url('../assets/shortscore-600x800.png?v=8.0');
+  background-image: url('../assets/shortscore.svg?v=8.0'), linear-gradient(transparent, transparent);
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.rangeslider .rangeslider__fill {
+  background-color: #337EB9;
+}
+
+.shortscore * {
+  user-select: none;
+}
+
+.type-game .shortscore-1 {
+  background-position: -200px 0;
+}
+
+.type-game .shortscore-2 {
+  background-position: -400px 0;
+}
+
+.type-game .shortscore-3 {
+  background-position: 0 -200px;
+}
+
+.type-game .shortscore-4 {
+  background-position: -200px -200px;
+}
+
+.type-game .shortscore-5 {
+  background-position: -400px -200px;
+}
+
+.type-game .shortscore-6 {
+  background-position: 0 -400px;
+}
+
+.type-game .shortscore-7 {
+  background-position: -200px -400px;
+}
+
+.type-game .shortscore-8 {
+  background-position: -400px -400px;
+}
+
+.type-game .shortscore-9 {
+  background-position: 0 -600px;
+}
+
+.type-game .shortscore-10 {
+  background-position: -200px -600px;
+}
+
+.type-game .shortscore {
+  margin: 0 auto;
+  margin-bottom: 0.4em;
+}
+
+.score {
+  text-align: center;
+  margin-bottom: 2em;
+  color: #707070;
+}
